@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Student Registration</title>
+        <h:outputStylesheet library="css" name="myStyle.css"/>
+        <h:outputScript library="js" name="myJs.js"/>
+    </h:head>
+
+    <h:body>
+        <h:form>
+            <h3>Lexicon</h3>
+            <h:panelGrid columns="1" style="margin: 0 auto;">
+                <h:outputText value="STUDENT REGISTRATION" id="rubrik"/>
+                <h:panelGroup/>
+            </h:panelGrid>
+
+            <h:panelGrid columns="2" style="margin: 0 auto;">
+                <p:outputLabel for="firstName" value="First name:"/>
+                <p:inputText id="firstName" value='#{studentBean.firstName}'/>
+
+                <p:outputLabel for="lastName" value="Last name:"/>
+                <p:inputText id="lastName" value='#{studentBean.lastName}'/>
+
+                <p:outputLabel for="age" value="Age:"/>
+                <p:inputText id="age" value='#{studentBean.age}'/>
+
+                <p:outputLabel for="subject1" value="Subject 1"/>
+                <p:inputText id="subject1" value='#{studentBean.subject.subject1}'/>
+
+                <p:outputLabel for="subject2" value="Subject 2"/>
+                <p:inputText id="subject2" value='#{studentBean.subject.subject2}'/>
+
+                <p:outputLabel for="subject3" value="Subject 3"/>
+                <p:inputText id="subject3" value='#{studentBean.subject.subject3}'/>
+
+                <p:outputLabel for="subject4" value="Subject 4"/>
+                <p:inputText id="subject4" value='#{studentBean.subject.subject4}'/>
+
+                <p:outputLabel for="location" value="Campus"/>
+                <p:selectOneMenu id="location" value="#{studentBean.nav.location}" required="true">
+                    <f:selectItem itemLabel="ort" itemValue=""/>
+                    <f:selectItem itemLabel="Stockholm" itemValue="Stockholm"/>
+                    <f:selectItem itemLabel="Göteborg" itemValue="Göteborg"/>
+                    <f:selectItem itemLabel="Uppsala" itemValue="Uppsala"/>
+                </p:selectOneMenu>
+                
+                <h:panelGroup/>
+                <p:commandButton value="Submit" action="#{studentBean.saveStudent()}" style="margin: 0 auto;"/>
+            </h:panelGrid>
+        </h:form>       
+    </h:body>
+</html>
+
