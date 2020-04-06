@@ -3,16 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Jule/Documents/NetBeansProjects/StudentRegistration/web/index.xhtml</file>
-            <file>file:/C:/Users/Jule/Documents/NetBeansProjects/StudentRegistration/src/java/services/StudentDao.java</file>
-            <file>file:/C:/Users/Jule/Documents/NetBeansProjects/StudentRegistration/web/confirmation.xhtml</file>
-            <file>file:/C:/Users/Jule/Documents/NetBeansProjects/StudentRegistration/src/java/model/Student.java</file>
-            <file>file:/C:/Users/Jule/Documents/NetBeansProjects/StudentRegistration/src/java/Student/Subject.java</file>
-            <file>file:/C:/Users/Jule/Documents/NetBeansProjects/StudentRegistration/web/confirmation2.xhtml</file>
-            <file>file:/C:/Users/Jule/Documents/NetBeansProjects/StudentRegistration/web/confirmation3.xhtml</file>
-            <file>file:/C:/Users/Jule/Documents/NetBeansProjects/StudentRegistration/src/conf/persistence.xml</file>
-            <file>file:/C:/Users/Jule/Documents/NetBeansProjects/StudentRegistration/src/java/Student/StudentBean.java</file>
-            <file>file:/C:/Users/Jule/Documents/NetBeansProjects/StudentRegistration/src/java/Student/navigationController.java</file>
+            <file>file:/home/luxal/JSF--Web-app-Student-/web/confirmation3.xhtml</file>
+            <file>file:/home/luxal/JSF--Web-app-Student-/web/confirmation.xhtml</file>
+            <file>file:/home/luxal/JSF--Web-app-Student-/web/WEB-INF/web.xml</file>
+            <file>file:/home/luxal/JSF--Web-app-Student-/web/confirmation2.xhtml</file>
         </group>
     </open-files>
 </project-private>
